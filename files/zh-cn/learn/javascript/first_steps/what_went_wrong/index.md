@@ -210,11 +210,6 @@ if (userGuess = randomNumber) {
 ### SyntaxError: missing ) after argument list<br>（语法错误：参数表末尾缺少括号）
 
 这个很简单。通常意味着函数/方法调用后的结束括号忘写了。
-
-> **备注：** 有关此错误的更多详细信息请参考： [SyntaxError: missing ) after argument list](/zh-CN/docs/Web/JavaScript/Reference/Errors/Missing_parenthesis_after_argument_list)。
-
-### SyntaxError: missing : after property id<br>（语法错误：属性 ID 后缺少冒号）
-
 JavaScript 对象的形式有错时通常会导致此类错误，如果把
 
 ```js
@@ -228,6 +223,12 @@ function checkGuess( {
 ```
 
 浏览器会认为我们试图将函数的内容当作参数传回函数。写圆括号时要小心！
+
+> **备注：** 有关此错误的更多详细信息请参考： [SyntaxError: missing ) after argument list](/zh-CN/docs/Web/JavaScript/Reference/Errors/Missing_parenthesis_after_argument_list)。
+
+### SyntaxError: missing : after property id<br>（语法错误：属性 ID 后缺少冒号）
+
+
 
 ### SystaxError: missing } after function body<br>（语法错误：函数体末尾缺少花括号）
 
